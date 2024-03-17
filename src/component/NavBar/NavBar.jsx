@@ -9,7 +9,7 @@ return (
     <div className = "items">
         
     <NavLink
-        to= "/"
+        to= "/react-project-villa/"
         className = {({ isActive}) => 
         isActive ? "active" : ""
         }
@@ -19,7 +19,7 @@ return (
         </NavLink> 
     
     <NavLink
-        to= "/Properties"
+        to= "/react-project-villa/Properties"
         className = {({ isActive}) => 
         isActive ? "active" : ""
         }>
@@ -28,7 +28,7 @@ return (
     </NavLink> 
 
     <NavLink
-    to = "/PropertyDetails"
+    to = "/react-project-villa/PropertyDetails"
         className = {({ isActive}) => 
         isActive ? "active" : ""
         }>
@@ -36,7 +36,7 @@ return (
     </NavLink> 
 
     <NavLink
-        to= "/ContactUS"
+        to= "/react-project-villa/ContactUS"
         className = {({ isActive}) => 
         isActive ? "active" : ""
         } >

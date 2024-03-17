@@ -19,17 +19,16 @@ const App = () => {
       <NavBar />
       <div className="content">
         <Routes>
-          <Route path ='/' element = {<Home />} />
-          <Route path ='/Properties' element = {<Properties />} />
-          <Route path ='/PropertyDetails' element = {<PropertyDetails />} />
-          <Route path ='/ContactUS' element = {<ContactUS />} />
+          <Route path ='/react-project-villa' element = {<Home />} />
+          <Route path ='/react-project-villa/Properties' element = {<Properties />} />
+          <Route path ='/react-project-villa/PropertyDetails' element = {<PropertyDetails />} />
+          <Route path ='/react-project-villa/ContactUS' element = {<ContactUS />} />
 
           
           
         </Routes>
       </div>
       </div>
-      <Footer />
     
       </div>
       

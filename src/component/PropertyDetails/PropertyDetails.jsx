@@ -6,6 +6,7 @@ import Card from '../Card/Card';
 import propimg from 'E:/React/villa/src/assets/single-property.jpg';
 import Pragraph from '../Pragraph/Pragraph';
 import Bestdeal from '../Bestdeal/Bestdeal';
+import Footer from '../Footer/Footer';
 const PropertyDetails = () => {
 
     const questionsAndAnswers = [
@@ -52,10 +53,15 @@ return (
     <Bestdeal title= " | Best Deal"
     desc= "Find Your Best Deal Right Now! " />
     </div>
-    
+
                 </div>
 
             </div>
+            <div className="Footer-property">
+        <Footer />
+    </div>
+    
+
 
         </div>
 

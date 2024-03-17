@@ -3,6 +3,7 @@
     height: 100vh;
     margin-right: 30px;
     width:100%;
+    overflow-x: hidden;
 
 }
 .home-fet{
@@ -57,12 +58,7 @@
     margin-left: 20px;
     
 }
-iframe{
-width: 100%; 
-height: 400px;
-margin-top: -420px;
-border-radius: 10px;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+iframe{ width: 100%; height: 400px; margin-top: -420px; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
 }
 .contactcard-part{
     margin-top: 40px;
@@ -76,4 +72,9 @@ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     margin-top: 0px;
     margin-left: 350px;
 
+}
+.footer-part-home{
+    display: flex;
+    margin-top: 350px;
+    overflow-x: hidden;
 }

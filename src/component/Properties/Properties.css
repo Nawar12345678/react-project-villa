@@ -99,7 +99,7 @@ body{
     -o-border-radius: 50%;
 }
 .pagination{
-    margin-top: -150px;
+    margin-top: -50px;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -135,6 +135,10 @@ li a {
 }
 .pagination li a:hover {
     background-color: #f35525;
+}
+.footer-properties{
+    margin-top:200px;
+    width: 100%;
 }
 
 

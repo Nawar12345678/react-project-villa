@@ -4,6 +4,7 @@ import Heroimg from 'E:/React/villa/src/assets/page-heading-bg.jpg';
 import './Properties.css'
 import { NavLink } from 'react-router-dom';
 import Vills from '../Vills/Vills';
+import Footer from '../Footer/Footer';
 
 const Properties = () => {
 return (
@@ -38,6 +39,9 @@ return (
             <li><a href="#">3</a></li>
             <li><a href="#">&gt;&gt;</a></li>
         </ul>
+    </div>
+    <div className="footer-properties">
+        <Footer />
     </div>
         </div>
     

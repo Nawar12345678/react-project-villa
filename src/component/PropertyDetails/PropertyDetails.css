@@ -113,5 +113,12 @@ font-size: 50px;
 }
 .bestdeal-property{
     margin-left: -800px;
-    margin-top: 80px;
+    margin-top: 20px;
+    margin-bottom: 220px;
+}
+
+.Footer-property{
+    margin-top: 690px;
+    width: 100%;
+    
 }

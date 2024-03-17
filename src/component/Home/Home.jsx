@@ -15,6 +15,7 @@ import Form from '../Form/Form';
 import Contactcard from '../Contactcard/Contactcard';
 import imgcc from 'E:/React/villa/src/assets/phone-icon.png';
 import imgcc2 from 'E:/React/villa/src/assets/email-icon.png';
+import Footer from '../Footer/Footer';
 
 
 
@@ -71,8 +72,12 @@ return (
                 </div>
             </div>
             </div>
+            
         </div>
         </div>
+        <div className="footer-part-home">
+                <Footer />
+            </div>
 
 
 
