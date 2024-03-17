@@ -1,0 +1,47 @@
+.info-appart {
+    display: flex;
+    align-items: center;
+    width: 150%
+}
+.info-appart .divider-box{
+    margin-right:20px;
+
+}
+.info-appart img{
+    margin-left: 20px;
+}
+.desc-part {
+    text-align: right;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 10%;
+    text-align: justify;
+
+}
+.desc-part h3{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: #1e1e1e;
+
+}
+.desc-part p{
+    align-items: center;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-right: 10px;
+    flex: 1;
+}
+button{
+    margin-top: 10px;
+    margin-left: 900px;
+}
+

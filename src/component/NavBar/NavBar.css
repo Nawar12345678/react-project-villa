@@ -1,0 +1,86 @@
+.Navbar-Container{
+    height: 80px;
+    padding: 0 30px;
+    width: 100vmax;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 50px; 
+    left: 0; 
+    right: 0;
+    z-index: 10;
+}
+
+.Navbar-Container h1{
+line-height: 100px;
+font-size: 28px;
+text-transform: uppercase;
+color: #1e1e1e;
+font-weight: 700;
+letter-spacing: 2px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.Navbar-Container .items{
+display: flex;
+gap: 50px;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+height: 100px;
+line-height: 100px;
+list-style: none;
+
+}
+.Navbar-Container .items a {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.Navbar-Container  button{
+    width: 200px;
+    height: 50px;
+}
+
+
+
+.Navbar-Container .items a:hover {
+    color: #f35525; 
+}
+
+
+@media (max-width: 768px) {
+    .Navbar-Container {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    .Navbar-Container h1 {
+    font-size: 24px;
+    }
+
+    .Navbar-Container .items {
+    gap: 20px;
+    }
+
+    .Navbar-Container .items a {
+    font-size: 1rem;
+    }
+}

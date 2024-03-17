@@ -1,0 +1,46 @@
+.contact-part {
+    position: relative;
+    height: 200vh;
+
+}
+.contact-part img{
+    width: 107%;
+    height: 50%;
+    object-fit: cover;
+}
+.contact-part .contact-info{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.contact-info h6{
+    color: #ee626b;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.contact-info h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}

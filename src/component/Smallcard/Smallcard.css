@@ -1,0 +1,53 @@
+.smallcard-container {
+    display: flex;
+}
+
+.smallcard {
+    position: relative;
+    justify-content:center;
+    height: 100px;
+    background-color: #ffeee9;
+    border-radius: 10px;
+    width: 270px;
+    margin-right: 100px;
+    flex-direction: row;
+
+}
+
+.number {
+    position: relative;
+    top:10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f35525; 
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.text {
+    bottom: 10px;;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.shape {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f35525;
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+@media screen and (max-width: 767px) {
+    smallcard-container{
+        width:100px
+    }
+
+
+}

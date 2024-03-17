@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  width:100%
+
+}
+.Navbar-Contanier {
+  display: flex;
+  flex: 1;
+  position: absolute;
+}
+
+.content {
+  flex: 1;
+  padding: 20px; 
+}  
+
+::selection {
+  background: #0071f8;
+
+  color: #fff;
+
+}
+::selection {
+  background: #0071f8;
+
+  color: #fff;
+
+}
+
+@media (max-width: 768px) {
+  .Navbar-Contanier {
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 10px; 
+  }  
+}

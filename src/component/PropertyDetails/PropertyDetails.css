@@ -1,0 +1,117 @@
+.property-part {
+    position: relative;
+    margin-right: 30px;
+    height: 100vh;
+
+}
+.hero-property img{
+    height:500px;
+}
+
+.property-part .hero-property {
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px 0px;
+text-align: center;
+position: relative;
+display: flex;
+width: 100%;
+}
+        .hero-property button {
+            position: absolute;
+            width:220px;
+            height: 50px;
+            margin-top: -350px;
+            align-items:center;
+            justify-content:center;
+            text-align: center;
+            border-radius: 0%;
+            font-size: 15px;
+            color: #1e1e1e;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            margin-left: 70%;
+            font-family: 'Poppins', sans-serif;
+            -webkit-border-radius: 0%;
+            -moz-border-radius: 0%;
+            -ms-border-radius: 0%;
+            -o-border-radius: 0%;
+}
+
+.property-part .hero-property p {
+display: flex;
+width: 500px;
+color: white;
+margin-top: -280px;
+margin-left: 60%;
+font-size: 50px;
+}
+.property-part2{
+    display:flex;
+    margin-top: -600px;
+    margin-left: 800px;
+}
+.img-property img{
+    display: flex;
+    margin-left: -780px;
+    vertical-align: middle;
+    width: 700px;
+    margin-top: -550px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.info-property{
+    margin-left:-720px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.info-property span{
+    color: black;
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    padding: 5px 10px;
+    width: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.info-property h4{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 70px;
+    border-bottom: 0.2px solid #eee;
+    color: #1e1e1e;
+    font-weight: 700;
+    outline: 0
+}
+.info-property p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; 
+    width: 66%;   
+}
+.paragraph-property{
+    margin-left: -700px;
+    margin-top: 50px;
+    width: 700px;
+}
+.bestdeal-property{
+    margin-left: -800px;
+    margin-top: 80px;
+}

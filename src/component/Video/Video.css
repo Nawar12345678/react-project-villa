@@ -1,0 +1,120 @@
+.video{
+    position: relative;
+    height: 200vh;
+
+}
+.video img{
+    width: 107%;
+    height: 50%;
+    object-fit: cover;
+}
+.video .video-info{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.video-info h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.video-info h2{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.imge img {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 150%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: middle;
+    margin-top: 200px;
+    margin-left: -500px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.videocard{
+margin-block-start: -400px;
+margin-left: 100px;
+margin-top: -100px;
+}
+@media screen and (max-width: 767px) {
+    .video img {
+        height: 50vh;
+    }
+    .video-info h6 {
+        font-size: 24px;
+        margin-left: -300px;
+
+    }
+
+    .video-info h2 {
+        font-size: 24px;
+        margin-left: -350px;
+
+    }
+    .imge img{
+        height: 50vh;
+        width: 2000%;
+        margin-top: -10px;
+        margin-left: -500px;
+        margin-bottom: 0px;
+    }
+    .videocard{
+        margin-top: -400px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video img {
+        height: 70vh;
+    }
+
+    .video-info h2 {
+        font-size: 36px;
+        margin-right: 200px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video img {
+        height: 100vh;
+    }
+
+    .video-info h2 {
+        font-size: 48px;
+    }
+}
